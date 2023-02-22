@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <style>
+        /*
+        Margin is from outside of border
+        short hand property is applied as clock wise
+        */
+        .main{
+            width: 200px;
+            height: 300px;
+            border: 6px solid blue;
+        }
+        .row{
+            width: 176px;
+            height: 256px;
+            border: 6px solid yellow;
+            /*margin: 6px;
+            margin-top: 16px;
+            margin-bottom: 16px;*/
+            margin: 16px 6px 16px 6px; /*It will work as clock wise*/
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="row">
+
+        </div>
+    </div>
+</body>
+</html>
