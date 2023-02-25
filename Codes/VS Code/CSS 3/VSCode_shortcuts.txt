@@ -1,0 +1,2 @@
+alt + select (for multi cursor)
+ctrl + K + U (for comment)
