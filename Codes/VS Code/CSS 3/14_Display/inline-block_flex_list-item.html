@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property : Inline-block, flex and list-item</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            border: 2px solid black;
+            margin: auto;
+        }
+        h2{
+            display: inline-block; /* This will repesent up & down space*/
+            display: list-item; /* This will repesent one dot with new line*/
+        }
+        .box{
+
+            float: left; /* This will arrange everything in single line*/
+        }
+        .box div{
+            width: 100px;
+            height: 50px;
+            border: 2px solid red;
+            float: left; /*This will arrange everything not in single line it might take next line as well after some particular space*/
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        <h2>This is H2 Tage</h2>
+        Omnis est fugiat nobis non dolorum enim temporibus officia, suscipit sed deleniti, iusto quo aliquam similique harum ad molestias commodi voluptate quis?
+    </div>
+  <div class="box">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+  </div>
+</body>
+</html>

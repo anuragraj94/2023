@@ -1,2 +1,3 @@
 alt + select (for multi cursor)
 ctrl + K + U (for comment)
+alt + Up arrow (for move content up & vice versa for down)
