@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation</title>
-    <style>
-         /* 
-              Time to resume at 3:03 minute   
-            */
+    <style>        
             .main{
               height: 600px;
               width: 600px;
@@ -24,9 +21,15 @@
               position: absolute;
               /* top: 0px;
               left: 0px; */
-              animation-name: box1;
-              animation-duration: 5s;
+
+              /*animation-name: box1;
+              animation-duration: 5s;*/
+              animation: box1 5s; /* shortcut property for above two lines*/
               animation-delay: 2s;
+
+              animation-iteration-count: 2; /*This will represent how many time you want to move particular animation*/
+              animation-fill-mode: backwards; /*This will represent effect animation*/
+              animation-direction: alternate; /*Here you can define the direction of animation*/
             }
             @keyframes box1{
               0%{
