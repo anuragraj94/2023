@@ -14,7 +14,7 @@ Check node is installed in your local system are not if not
 Then
 Install node 
 ```
-Download Node link : https://nodejs.org/en/download
+
 
 ## Folder Structure
 
@@ -39,10 +39,12 @@ And add below libraries for tailwind css
 index.html
 
 ```
+
 ## Command for initialize Tailwind CSS 
 ```bash
  npx tailwindcss init
 ```
+
 
 ## Setup CSS Path
 ```bash
@@ -52,14 +54,17 @@ index.html
  content: ["./dist/*.html"
 ```
 
+
 ## Command for build css file & run Tailwind watch
 ```bash
 npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch
 ```
+
 ## Link generated css file to html 
 ```bash
 Link created css file to *.html
 ```
+
 ## Ignore vs code problems
 ```bash
  To ignore input.css files error open vs code
@@ -102,7 +107,7 @@ Start the server
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+HTML, CSS, Javascript...
 
 
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
@@ -124,3 +129,7 @@ Answer 2
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
+## Important Links
+
+Tailwind reference document:  https://tailwindcss.com/docs/installation
+Download Node: https://nodejs.org/en/download
