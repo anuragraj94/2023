@@ -29,16 +29,21 @@ Create two folders
 
 ```bash
 1. Under src folder create a file
-input.css
-And add below libraries for tailwind css
+    input.css
+    And add below libraries for tailwind css
+
+2. Under dist folder create a file
+    index.html
+```
+
+## Libraries
+
+```bash
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-2. Under dist folder create a file
-index.html
-
 ```
+
 
 ## Command for initialize Tailwind CSS 
 ```bash
