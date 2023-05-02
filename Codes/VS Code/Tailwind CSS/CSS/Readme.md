@@ -4,7 +4,7 @@
 # README About
 
 This readme file is for setup & install Tailwind CSS in your local system & create project with the help of Tailwind CSS Framework.
-Reference document link:  https://tailwindcss.com/docs/installation
+
 
 ## Seup the Envirnment
 
@@ -131,5 +131,5 @@ Answer 2
 
 ## Important Links
 
-Tailwind reference document:  https://tailwindcss.com/docs/installation
+Tailwind reference document:  https://tailwindcss.com/docs/installation \
 Download Node: https://nodejs.org/en/download
