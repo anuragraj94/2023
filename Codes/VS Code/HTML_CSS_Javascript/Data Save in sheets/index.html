@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        body {
+            background-color: #0a0a5d;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            flex-basis: 400px;           
+            background-color: blanchedalmond;
+            box-shadow: 0px 0px 10px 2px #ccc;
+        }
+        .main h3{
+            padding: 20px 20px 10px 20px;
+            font-size: 30px;
+        }
+        .main form{
+            padding: 20px;
+        }
+        .form-outer{
+            margin-bottom: 20px;
+        }
+        .form-outer label{
+            display: block;
+        }
+        .form-outer input{
+            width: 100%;
+            height: 25px;
+        }
+        .form-outer button{
+            padding: 10px 0px;
+            width: 100%;
+            background-color: #0a0a5d;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h3>Get in touch</h3>
+        <form method="post" id="form">
+            <div class="form-outer">
+                <label for="">Name</label>
+                <input type="text" name="name">
+            </div>
+            <div class="form-outer">
+                <label for="">Email</label>
+                <input type="text" name="email">
+            </div>
+            <div class="form-outer">
+                <label for="">Phone</label>
+                <input type="text" name="phone">
+            </div>
+            <div class="form-outer">
+                <button name="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script>
+        var Url='https://script.google.com/macros/s/AKfycbz5HkXzPY18gq0Nf__v1O6ebX4cO7LiEI0Y0SHs6FyUG7OgFSOqlzJyjOV-ExbYXRs-/exec';
+        var form=document.querySelector('#form');
+        form.addEventListener("submit",(e)=>{
+           var formData=new FormData(form);
+           fetch(Url,{
+            method:"POST",
+            body:form
+           }).then((result)=>result.text())
+           .then((finalResult)=>console.log(finalResult));
+            e.preventDefault();
+        });
+       
+    </script>
+</body>
+</html>
