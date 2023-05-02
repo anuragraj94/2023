@@ -1,7 +1,7 @@
 # Hi, I'm Anurag! 👋
 
 
-# Tailwind CSS
+# README About
 
 This readme file is for setup & install Tailwind CSS in your local system & create project with the help of Tailwind CSS Framework.
 Reference document link:  https://tailwindcss.com/docs/installation
