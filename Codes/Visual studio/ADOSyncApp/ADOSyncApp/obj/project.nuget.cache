@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DP5azwLLdieeQgezj1+u4rvEAPoDpWL09sGvxtdc/FAKvL1/9sYXsyPdeNZud0QGfOYCLiSEGrCS0T05k7qszQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\anura\\OneDrive\\Desktop\\2023\\Codes\\Visual studio\\ADOSyncApp\\ADOSyncApp\\ADOSyncApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anura\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

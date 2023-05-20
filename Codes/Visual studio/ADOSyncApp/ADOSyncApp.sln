@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADOSyncApp", "ADOSyncApp\ADOSyncApp.csproj", "{05CAD684-D14A-41C8-A79F-D1630A57A356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp1", "FunctionApp1\FunctionApp1.csproj", "{7C004327-7041-45C5-9C20-28C9E0D65624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05CAD684-D14A-41C8-A79F-D1630A57A356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05CAD684-D14A-41C8-A79F-D1630A57A356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05CAD684-D14A-41C8-A79F-D1630A57A356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05CAD684-D14A-41C8-A79F-D1630A57A356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C004327-7041-45C5-9C20-28C9E0D65624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C004327-7041-45C5-9C20-28C9E0D65624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C004327-7041-45C5-9C20-28C9E0D65624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C004327-7041-45C5-9C20-28C9E0D65624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25792958-D47E-4AA4-8A80-CF55DC4E3930}
+	EndGlobalSection
+EndGlobal

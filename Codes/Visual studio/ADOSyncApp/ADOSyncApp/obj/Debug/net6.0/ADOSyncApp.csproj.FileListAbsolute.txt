@@ -1,0 +1,5 @@
+C:\Users\anura\OneDrive\Desktop\2023\Codes\Visual studio\ADOSyncApp\ADOSyncApp\obj\Debug\net6.0\ADOSyncApp.csproj.AssemblyReference.cache
+C:\Users\anura\OneDrive\Desktop\2023\Codes\Visual studio\ADOSyncApp\ADOSyncApp\obj\Debug\net6.0\ADOSyncApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anura\OneDrive\Desktop\2023\Codes\Visual studio\ADOSyncApp\ADOSyncApp\obj\Debug\net6.0\ADOSyncApp.AssemblyInfoInputs.cache
+C:\Users\anura\OneDrive\Desktop\2023\Codes\Visual studio\ADOSyncApp\ADOSyncApp\obj\Debug\net6.0\ADOSyncApp.AssemblyInfo.cs
+C:\Users\anura\OneDrive\Desktop\2023\Codes\Visual studio\ADOSyncApp\ADOSyncApp\obj\Debug\net6.0\ADOSyncApp.csproj.CoreCompileInputs.cache
